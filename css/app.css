@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button{
+    border: none;
+}
+
+body{
+    background-color: aquamarine;
+
+}
+
+header{
+    background-color: white;
+    padding: 20px 0;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+main{
+    padding: 50px 0;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-header .row{
+    justify-content:flex-end;
+}
+
+.play-button{
+    border-radius: 3px;
+    background-color:wheat;
+    min-width: 80px;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cella{
+    border: 2px solid black;
+    aspect-ratio: 1/1;
+    flex-basis: calc(100% / 10);
+}
